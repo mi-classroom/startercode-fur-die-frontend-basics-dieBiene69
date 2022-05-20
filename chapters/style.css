@@ -1,91 +1,124 @@
 body {
     color: #000000;               
     background-color: #ffffff;   
-    font-size: 13.3333px;
-  }
-  
+    font-size: 16px;
+    padding-left: 6rem;
+    padding-right: 50rem;
+  } 
 h1 {
-    font-family: sans-serif;
+
+    font-family: "IBM Plex Sans", sans-serif;
     font-size: 2em;
     color:#706f6f;
+    padding-bottom: 1px;
+    border-bottom: #706f6f 3.5px solid ;
+    Display: inline-block;
+   
   }
-  
 h2 {
-    font-family: sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
     font-size: 1.6em;
     color: black;
+    padding: 0.3rem;
   }
-
 dt {
     color:#706f6f;
-    font-size: 13.3333px;
-    font-family: sans-serif;
-
-  }
-.tableheadline {
-
-    font-family: sans-serif;
-      color: black;
-  }
-
-  .focus{
-
+    font-size: 17px;
+    font-family: "IBM Plex Sans", sans-serif;
     font-weight: bold;
-    color:#3c3c3b;
+
   }
 
 p {
     
     color:#3c3c3c;
-    font-size: 13.3333px;
-    font-family:serif;
 
   }
-.introduction{
 
-    color:#706f6f ;
-    font-family: system-ui,sans-serif !important;
 
-  }
 cite {
     color:#9AA0A6;
-    font-size: 10.6667px;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: bold;
-    font-family: system-ui, sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
 
   }
-.citation{
-
-    color: #dfac4a;
-    font-family: system-ui,sans-serif;
-}
-.reference{
-
-    color:#3c3c3c;
-    font-family: serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13.3333px;
-    font-style:italic ! important;
-
-    }
-
 
 figcaption{
     color:rgba(0, 0, 0, 0.3);
-    font-size: 10.6667px;
+    font-size: 0.8rem;
     font-weight:bold;
 }
 
 
 tbody{
     color:#706f6f ;
-    font-family: system-ui,sans-serif
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 15px;
 }
 
-.table-note{
+dd{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 
-    font-family: sans-serif;
+}
+
+fieldset{
+
+  color:#3c3c3c;
+  font-size: 1rem;
+  font-family: "IBM Plex Sans",serif;
+  padding: 1em;
+  padding-top: 1em;
+
+}
+
+
+.introduction{
+
+  color:#706f6f ;
+  font-family: "IBM Plex Sans", sans-serif !important;
+
+}
+.tableheadline {
+
+  font-family: "IBM Plex Sans", sans-serif;
+  color: black; 
+}
+
+.mainfocus{
+
+font-weight: bold;
+color:#3c3c3b;
+}
+.personalsignificance{
+
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: italic;
 }
+.meaningful{
+  color: #dfac4a;
+
+
+
+}
+.citation{
+
+  color: #dfac4a;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 15px;
+  padding-left: 0rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.reference{
+
+  color:#3c3c3c;
+  font-family: serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  font-style:italic ;
+
+  }
