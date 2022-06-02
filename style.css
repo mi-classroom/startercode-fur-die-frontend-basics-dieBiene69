@@ -4,6 +4,9 @@ body {
     font-size: 16px;
     padding-left: 6rem;
     padding-right: 50rem;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
   } 
 h1 {
 
